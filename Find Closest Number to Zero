@@ -1,12 +1,9 @@
 # https://leetcode.com/problems/find-closest-number-to-zero/submissions/
 
-
+# Faster than 96.7% (https://leetcode.com/submissions/detail/795514978/)
 class Solution(object):
     def findClosestNumber(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: int
-        """
+
         minimum = float('inf')
         l = []
         k = float('-inf')
@@ -15,8 +12,7 @@ class Solution(object):
             if( abs(i)<abs(minimum) ):
                 minimum = i
                 k=i
-            elif(abs(i)==abs(minimum)):
-                if(i > minimum):
+            elif(abs(i)==abs(minimum) & i > minimum):
                     k = i
 
         return k if k>=0 else minimum
