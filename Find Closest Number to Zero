@@ -5,7 +5,6 @@ class Solution(object):
     def findClosestNumber(self, nums):
 
         minimum = float('inf')
-        l = []
         k = float('-inf')
 
         for i in nums:
