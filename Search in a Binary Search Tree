@@ -26,7 +26,3 @@ class Solution(object):
                     output.left = node.left
         traverse(root)
         return None if output.val == 0 else output
-
-        
-        
-        
