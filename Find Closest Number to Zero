@@ -1,4 +1,4 @@
-# https://leetcode.com/problems/find-closest-number-to-zero/submissions/
+# https://leetcode.com/problems/find-closest-number-to-zero
 
 # Faster than 96.7% (https://leetcode.com/submissions/detail/795514978/)
 class Solution(object):
