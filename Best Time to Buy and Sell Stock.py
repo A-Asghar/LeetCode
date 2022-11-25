@@ -1,6 +1,6 @@
 # https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
 
-# Beats 92.15%  https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/849497231/
+# Beats 98%  https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/849498278/
 
 class Solution(object):
     def maxProfit(self, prices):
